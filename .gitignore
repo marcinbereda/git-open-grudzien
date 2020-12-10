@@ -1,0 +1,9 @@
+# Ignore files
+internals/
+logs/*.log
+
+# Exclude pattern
+!logs/important*.log
+
+test.txt
+
