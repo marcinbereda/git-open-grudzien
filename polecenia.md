@@ -48,6 +48,9 @@ git status
 git log 
 git show 91a42b94
 
+git log --reverse
+git log -2
+
 # Internals vs PLumbing - nie rób tego w domu (ani pracy!)
 <!-- git add -->
 git hash-object test.txt
@@ -96,3 +99,11 @@ git commit --amend
 <!-- VIM - poprawiamy message + :wq -->
 
 git commit --amend  -m "poprawiona nazwa"
+
+# Committer vs Author
+git show --format=fuller 88232a771a0e91
+commit 88232a771a0e915200a86dfe8b2437b702c5f3af (HEAD -> master)
+Author:     Mateusz Kulesza <mateusz@altkom>
+AuthorDate: Thu Dec 10 13:40:48 2020 +0100
+Commit:     Mateusz Kulesza <mateusz@altkom>
+CommitDate: Thu Dec 10 13:45:20 2020 +0100
