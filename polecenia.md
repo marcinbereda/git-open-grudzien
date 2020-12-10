@@ -52,8 +52,6 @@ git show 91a42b94
 git log --reverse
 git log -2
 
-:q - to exit long log
-
 # Internals vs PLumbing - nie rób tego w domu (ani pracy!)
 <!-- git add -->
 git hash-object test.txt
