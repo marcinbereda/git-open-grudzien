@@ -126,3 +126,8 @@ git commit
 git rm file.to.remove.txt
 git status // file removed
 git commit 
+
+# Renaming files
+git mv strona/git-init.html strona/lokalna/
+git mv strona/git-*.html strona/lokalna/
+
