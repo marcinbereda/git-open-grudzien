@@ -107,3 +107,9 @@ Author:     Mateusz Kulesza <mateusz@altkom>
 AuthorDate: Thu Dec 10 13:40:48 2020 +0100
 Commit:     Mateusz Kulesza <mateusz@altkom>
 CommitDate: Thu Dec 10 13:45:20 2020 +0100
+
+# Alias
+git config alias.log1 "log --oneline"
+git config --global alias.log1 "log --oneline"
+
+https://github.com/GitAlias/gitalias
