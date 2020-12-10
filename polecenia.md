@@ -42,6 +42,7 @@ git status
 - EXC - wyjdz z wprowadzania tekstu
 - :wq - write + quit
 - :q! - wyjdz bez zapisywania 
+https://149351115.v2.pressablecdn.com/wp-content/uploads/2017/05/exitvim-1200x534.png
 
 # Przegladanie
 git status
