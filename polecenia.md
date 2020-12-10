@@ -131,3 +131,23 @@ git commit
 git mv strona/git-init.html strona/lokalna/
 git mv strona/git-*.html strona/lokalna/
 
+git mv nazwa\ ze\ spacja.txt
+git mv "nazwa ze spacja.txt"
+
+# Restoring files
+git restore strona/index.html
+git checkout ccff80e strona/index.html
+git checkout HEAD~3 strona/index.html
+
+git log --name-only
+git log -- test.txt --name-only
+git show 91a42 --name-only
+git checkout 91a42 test.txt
+git checkout 91a42 test.txt test2.txt test3.txt
+git checkout 91a42 "nazwa ze spacja.txt"
+
+# Switch to commit / branch
+git checkout 91a42
+git switch 91a42
+git checkout 91a42
+git switch master
