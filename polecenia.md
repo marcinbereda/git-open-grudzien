@@ -91,4 +91,8 @@ committer Mateusz Kulesza <mateusz@altkom> 1607599400 +0100
 Pierwszy commit - internals -->
 
 # Commit amend
+git add zmieniony.plik
 git commit --amend 
+<!-- VIM - poprawiamy message + :wq -->
+
+git commit --amend  -m "poprawiona nazwa"
