@@ -52,6 +52,8 @@ git show 91a42b94
 git log --reverse
 git log -2
 
+:q - to exit long log
+
 # Internals vs PLumbing - nie rób tego w domu (ani pracy!)
 <!-- git add -->
 git hash-object test.txt
@@ -114,3 +116,13 @@ git config alias.log1 "log --oneline"
 git config --global alias.log1 "log --oneline"
 
 https://github.com/GitAlias/gitalias
+
+# Removing files
+remove file manually 
+git add removed.file.txt
+git status // file removed
+git commit 
+
+git rm file.to.remove.txt
+git status // file removed
+git commit 
