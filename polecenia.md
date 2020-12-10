@@ -149,3 +149,9 @@ git checkout 91a42
 git switch 91a42
 git checkout 91a42
 git switch master
+
+# Reverting commits
+git revert ee35126
+<!-- Fix conflicts - remove conflict markers <<<<< ======= >>>>> -->
+git add confilcted.file.txt
+git revert --continue
