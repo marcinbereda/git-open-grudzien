@@ -233,3 +233,23 @@ git remote show zdalne_repo_naza
 git remote show origin
 
  git remote add local_fork C:/Projects/altkom/git-open-grudzien-fork
+
+ # Pobieranie 
+ git fetch origin master <!-- -> origin/master -->
+ git merge FETCH_HEAD
+
+ git pull <!-- fetch + merge FETCH-HEAD -->
+
+ # Tracking
+ git branch --set-upstream-to=local_fork/<branch> master
+ git branch -t local_fork/master
+<!-- Branch 'local_fork/master' set up to track local branch 'master'.  -->
+
+<!-- Z inneg zdalnego na inny lokalny -->
+ git pull origin zdalny:lokalny
+<!-- Z ttego samego zdalnego na ten sam lokalny -->
+ git pull origin zdalny_lokalny
+
+<!-- Zapamietaj i śledź zdalny branch -->
+ git pull --set-upstream local_fork master
+ git pull
