@@ -170,3 +170,31 @@ git stash pop - aplikuj i usun ostatni
 
 git show stash@{0}
 git diff stash@{0}
+
+# Git Tag
+git tag sekcje_skonczone  5b1f7fb
+git tag v1.0 -a -m "Wersja 1.0 opublikowana"
+
+git tag inny_tag  HEAD~3
+
+<!--  -->
+git log1 -4
+
+8493a84 (HEAD -> master, tag: v1.0) Poprawki do Stash i Diff
+5b1f7fb (tag: sekcje_skonczone) Strona - sekcja praca równoległa na gałeziach - stash
+<!--  -->
+git tag -n
+
+sekcje_skonczone Strona - sekcja praca równoległa na gałeziach - stash
+v1.0            Wersja 1.0 opublikowana
+<!--  -->
+git show v1.0
+
+tag v1.0
+Tagger: Mateusz Kulesza <mateusz@altkom>
+Date:   Fri Dec 11 10:13:50 2020 +0100
+
+Wersja 1.0 opublikowana
+
+commit 8493a847f8aaf36a14c773e87862606eb3b2ec22 (HEAD -> master, tag: v1.0)
+...
