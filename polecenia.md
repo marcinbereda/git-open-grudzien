@@ -253,3 +253,9 @@ git remote show origin
 <!-- Zapamietaj i śledź zdalny branch -->
  git pull --set-upstream local_fork master
  git pull
+ 
+ # git push
+ git push local_fork lokalny:zdalny
+ git push local_fork lokalny_zdalny
+ git push -u local_fork lokalny_zdalny
+ git push
