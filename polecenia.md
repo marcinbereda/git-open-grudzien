@@ -155,3 +155,18 @@ git revert ee35126
 <!-- Fix conflicts - remove conflict markers <<<<< ======= >>>>> -->
 git add confilcted.file.txt
 git revert --continue
+
+# Git Stash
+git stash  -- stash working dir and index and ONLY tracked files
+
+<!-- Include Untracked files -->
+git stash -u 
+
+git stash list
+git stash apply stash@{12} - aplikuj
+git stash drop stash@{12} - usun
+
+git stash pop - aplikuj i usun ostatni
+
+git show stash@{0}
+git diff stash@{0}
