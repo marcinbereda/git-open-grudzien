@@ -198,3 +198,28 @@ Wersja 1.0 opublikowana
 
 commit 8493a847f8aaf36a14c773e87862606eb3b2ec22 (HEAD -> master, tag: v1.0)
 ...
+
+# Git branch
+<!-- Create -->
+git branch wip_header_logo master
+git branch wip_header_logo HEAD
+git branch wip_header_logo
+
+<!-- Create and switch -->
+git checkout -b wip_header_logo
+git switch -c wip_header_logo
+
+<!-- Switch to exising branch -->
+git checkout wip_header_logo
+git switch  wip_header_logo
+
+<!-- Show ALL branches -->
+git log --oneline --all --decorate
+git log --oneline --all --decorate --graph
+<!-- :q - to exit git log -->
+<!-- git config alias.graph "log --oneline --all --decorate --graph" -->
+
+git branch -v
+  master          fe93654 Polecenia - git tag
+* wip-git_branch  fe93654 Polecenia - git tag
+  wip_header_logo d4b6bd4 WIP - Header + logo
