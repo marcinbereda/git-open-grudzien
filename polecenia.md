@@ -255,7 +255,16 @@ git remote show origin
  git pull
  
  # git push
+ <!-- Create branch -->
  git push local_fork lokalny:zdalny
  git push local_fork lokalny_zdalny
+ <!-- Set tracking branch -->
  git push -u local_fork lokalny_zdalny
+ <!-- Update tracking branch -->
  git push
+ 
+<!-- DElete remote branch -->
+ git push local_fork :placki
+ # remove branch
+To C:/Projects/altkom/git-open-grudzien-fork
+ - [deleted]         placki
