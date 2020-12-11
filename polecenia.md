@@ -223,3 +223,13 @@ git branch -v
   master          fe93654 Polecenia - git tag
 * wip-git_branch  fe93654 Polecenia - git tag
   wip_header_logo d4b6bd4 WIP - Header + logo
+
+
+# Praca zdalna
+git clone zdalne_repo lokalny_fork
+git remote
+
+git remote show zdalne_repo_naza
+git remote show origin
+
+ git remote add local_fork C:/Projects/altkom/git-open-grudzien-fork
