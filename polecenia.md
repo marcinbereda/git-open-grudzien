@@ -1,3 +1,12 @@
+# Clone
+cd .. 
+
+<!-- git clone git@github.com:ev45ive/git-open-grudzien.git git-open-grudzien-fork -->
+git clone https://github.com/ev45ive/git-open-grudzien.git git-open-grudzien-fork
+
+git clone https://github.com/ev45ive/git-open-grudzien ./tutaj_sciagnij_pliki
+
+
 
 # VsCode
 Plik => Otwórz Folder => Tworzymy Folder => Wchodzimy do środka => klikamy "Select folder"
@@ -262,7 +271,7 @@ git remote show origin
  git push -u local_fork lokalny_zdalny
  <!-- Update tracking branch -->
  git push
- 
+
 <!-- DElete remote branch -->
  git push local_fork :placki
  # remove branch
